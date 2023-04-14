@@ -20,10 +20,10 @@ body .container{
     height: 100vh;
     margin: 0;
     text-align: center;
-    background: #000000dc
+    background: #00000084
 }
 img{
-    width: 300px;
+    width: 100px;
 }
 video {
     display: flex;
