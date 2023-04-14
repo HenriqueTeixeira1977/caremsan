@@ -1,0 +1,340 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    transition: all .3s ease;
+}
+body{
+    min-height: 100vh;
+}
+main{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    max-width: 1320px;
+    margin: auto;
+
+}
+header{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 3%;
+    transition: .3s;
+}
+header .brand{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 7px;
+}
+header nav a {
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    transition: all .3s ease;
+    transition-property: color,;
+}
+header nav a:hover {
+    color:orangered;
+}
+header .btn{
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+header.sticky{
+    background: #ffffff;
+    box-shadow: 0px 10px 10px 0px #00000072;
+    border-bottom: orangered solid 5px;
+}
+header .button{
+    background: #29A71A;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: solid 3px #ffffff;    
+}
+header .button:hover{
+    background: orangered;
+    color: rgb(255, 255, 255);
+}
+
+/*  -----------  Section Home  ----------  */
+.home{background: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    max-width: 1300px;
+
+    margin: auto;
+    padding: 100px 0 0 0;
+}
+.home article { /*background: rgb(78, 78, 78);*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    height: 90%;
+    margin: 10px;
+}
+.home article h1{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 40px;
+}
+.home article h2{
+    font-size: 20px;
+}
+.home article h3{
+    font-size: 30px;
+}
+.home article p{
+    margin: 10px 0;
+}
+.home article a{
+    background: orangered;
+    color: #ffffff;
+    margin: 10px 0;
+    padding: 5px 50px;
+    border: #ffffff solid 3px;
+    border-radius: 10px;
+}
+.home aside {
+    background:orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 90%;
+    border-radius: 20px;
+}
+
+/*  -----------  Section Soluções  ----------  */
+.solucoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.solucoes h2{
+    margin: 100px 0 50px 0;
+    font-size: 50px;
+    font-weight: 700;
+}
+.solucoes .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 3%;
+    width: 100%;
+}
+.solucoes .container .box{
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    padding: 20px;
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #00000033; 
+}
+.solucoes .container .box i{
+    font-size: 70px;
+    margin: 20px;
+    color: orangered;
+}
+.solucoes .container .box h3{
+    font-size: 30px;
+}
+.solucoes .container .box p {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+.solucoes .container .box a {
+    background: orangered;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 5px 50px;
+    border: #ffffff solid 3px;
+    border-radius: 10px;
+}
+
+/*  -----------  Section Sobre  ----------  */
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0 0 0;
+}
+.sobre h2{
+    margin: 0 0 0 0;
+    font-size: 50px;
+    font-weight: 700;
+}
+.sobre .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 5%;
+}
+.sobre article{background:orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 95%;
+    padding: 0px;
+    border-radius: 20px;    
+}
+.sobre aside{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 50%;
+    height: 95%;
+    padding: 30px;
+    text-align: right;
+}
+.sobre aside h3{
+    color: orangered;
+}
+.sobre aside h2{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.sobre aside p{
+    margin: 20px 0;
+}
+.sobre aside a{
+    background: orangered;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 5px 50px;
+    border: #ffffff solid 3px;
+    border-radius: 10px;
+}
+
+/*  -----------  Section Contatos  ----------  */
+.contatos{background: #e7e7e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    padding: 110px 0 0 0;
+}
+.contatos .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    padding: 0px 0;
+}
+.contatos article{ 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    flex-direction: column;
+    width: 50%;    
+    height: 500px;
+}
+.contatos h2{
+    font-size: 2rem;
+    color: orangered;
+}
+.contatos article p{
+    margin: 20px 0;
+    padding: 0px 0;
+}
+.contatos article a{
+    color: #000000;
+    margin: 0px 0px;
+    padding: 5px 1  px;
+    border-radius: 10px;
+}
+.contatos .whatsapp {
+    width: 90%;
+    margin: 20px 0;
+    padding: 10px;
+    background: #29A71A;
+    font-size: 30px;
+    text-align: center;
+    color: #fdfdfd;
+    border: rgb(255, 255, 255) solid 3px;
+}
+.contatos .whatsapp:hover{
+    background: #239217;
+}
+.contatos aside{ 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    width: 90%;    
+    height: 90%;
+}
+.contatos aside iframe{
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+/*  -----------  Section Footer  ----------  */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    padding: 20px 20px;
+    background: #000000;
+    color: #e7e7e7;
+}
+footer a {
+    color: orangered;
+}
+footer a:hover {
+    color: rgba(255, 68, 0, 0.774);
+}
