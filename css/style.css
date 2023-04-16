@@ -15,14 +15,7 @@
 body{
     min-height: 100vh;
 }
-main{
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    max-width: 1320px;
-    margin: auto;
 
-}
 header{
     z-index: 999;
     position: fixed;
@@ -83,9 +76,15 @@ header .button:hover{
     background: orangered;
     color: rgb(255, 255, 255);
 }
+main{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+}
 
 /*  -----------  Section Home  ----------  */
-.home{background: rgb(255, 255, 255);
+.home{background: rgb(170, 170, 170);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -94,19 +93,16 @@ header .button:hover{
     flex-direction: row;
     width: 100%;
     height: 100vh;
-    max-width: 1300px;
-
     margin: auto;
-    padding: 100px 0 0 0;
+    padding: 0 5%;
 }
-.home article { /*background: rgb(78, 78, 78);*/
+.home article { background: rgb(78, 78, 78);
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     width: 50%;
-    height: 90%;
-    margin: 10px;
+    height: 100%;
 }
 .home article h1{
     font-size: 50px;
@@ -123,21 +119,27 @@ header .button:hover{
     margin: 10px 0;
 }
 .home article a{
-    background: orangered;
+    background: #29A71A;
     color: #ffffff;
     margin: 10px 0;
-    padding: 5px 50px;
+    padding: 10px 100px;
     border: #ffffff solid 3px;
     border-radius: 10px;
 }
-.home aside {
-    background:orangered;
+.home article a:hover{
+    background:#239217;
+}
+
+.home aside {    background: rgb(251, 255, 0);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 90%;
-    border-radius: 20px;
+    height: 100vh;
+}
+.home aside img {    background: orangered;
+    width: 100%;
+    z-index: 1;
 }
 
 /*  -----------  Section Soluções  ----------  */
