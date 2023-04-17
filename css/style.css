@@ -84,7 +84,7 @@ main{
 }
 
 /*  -----------  Section Home  ----------  */
-.home{background: rgb(170, 170, 170);
+.home{
     background-size: cover;
     background-position: center;
     display: flex;
@@ -96,7 +96,7 @@ main{
     margin: auto;
     padding: 0 5%;
 }
-.home article { background: rgb(78, 78, 78);
+.home article {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -130,20 +130,20 @@ main{
     background:#239217;
 }
 
-.home aside {    background: rgb(251, 255, 0);
+.home aside { 
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     height: 100vh;
 }
-.home aside img {    background: orangered;
+.home aside img { 
     width: 100%;
     z-index: 1;
 }
 
 /*  -----------  Section Soluções  ----------  */
-.solucoes{
+.solucoes{background-color: #e7e7e7;
     display: flex;
     justify-content: center;
     align-items: center;
