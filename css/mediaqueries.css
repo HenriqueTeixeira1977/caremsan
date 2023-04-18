@@ -53,7 +53,7 @@
         width: 100%;
         height: 100vh;
         margin: auto;
-        padding: 20px;
+        padding: 0 20px;
     }
     main .home .bg {
         display: flex;
@@ -63,7 +63,6 @@
         width: 100%;
         height: 100vh;
         margin: auto;
-        padding: 20px;
     }   
     main .home .bg aside {
         display: flex;
@@ -71,10 +70,11 @@
         align-items: center;
         width: 100%;
         height: 50%;
-        margin: 110px 0 0 0;
+        margin: 70px 0 0 0;
     }
     main .home .bg aside img{
         width: 70%;
+        margin: 0;
     }
     main .home .bg article {
         display: flex;
@@ -103,7 +103,9 @@
         align-items: center;
         flex-direction: column;
         width: 100%;
+        height: 100vh;
         margin: 0;
+        padding-bottom: 100px;
     }
     .solucoes h2{
         margin: 100px 0px 0px 0px;
@@ -141,21 +143,44 @@
     }
 /*  -----------  Section Sobre  ----------  */
     .sobre .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
+        width: 100%;
         height: 100vh;
-        padding: 0;
+        margin: 0;
     }
     .sobre article {
         width: 95%;
+        padding: 100px 0 0 0;
     }
+    .sobre article img{
+        width: 70%;
+    }
+
     .sobre aside{
         width: 95%;
         align-items: center;
         text-align: center;
     }
 
+    .sobre aside h2{
+        font-size: 3rem;
+        line-height: 35px;
+    }
+    .sobre aside h2{
+        padding: 0;
+    }
+    .sobre aside a{
+        padding: 10px 30px;
+    }
+
+
 /*  -----------  Section Contatos  ----------  */
     .contatos{
+        width: 90%;
+        height: 100vh;
         display: flex;
         text-align: center;
     }
@@ -164,8 +189,8 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 90%;
         text-align: center;
+        height: 80vh;
     }
     .contatos .container article{ 
         display: flex;
@@ -175,15 +200,24 @@
         height: 90%;
         text-align: center;
     }
+    .contatos article h2{
+        font-size: 2.3rem;
+        color: #000000;
+        padding: 0px 0;
+    }
+    .contatos article h3{
+        padding: 0px 0;
+    }
     .contatos article p{
         padding: 0px 0;
     }
     .contatos .whatsapp {
+        margin: 20px 0;
         font-size: 20px;
     }
     .contatos aside iframe{
         width: 100%;
-        margin: 20px 0;
+        margin: 2px 0;
     } 
     
 /*  -----------  Section Footer  ----------  */
