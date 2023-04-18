@@ -48,35 +48,51 @@
         justify-content: center;
         align-items: center;
         flex-direction: column-reverse;
+        margin: 0;
+        padding: 0;
         width: 100%;
         height: 100vh;
         margin: auto;
+        padding: 20px;
     }
-    main .home article {
+    main .home .bg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+        padding: 20px;
+    }   
+    main .home .bg aside {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+        margin: 110px 0 0 0;
+    }
+    main .home .bg aside img{
+        width: 70%;
+    }
+    main .home .bg article {
         display: flex;
         justify-content: flex-start;
         align-items: center;
         width: 100%;
         text-align: center;
     }
-    main .home aside {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 50%;
-        margin: 100px 0 0 0;
-    }
-    .home article h1{
-        font-size: 3rem;
+    .home .bg article h1{
+        font-size: 3.5rem;
         line-height: 50px;
     }
-    .home article h2{
-        font-size: 3.8rem;
+    .home .bg article h2{
+        font-size: 2.5rem;
         line-height: 50px;
     }
-    .home article h3{
-        font-size: 2rem;
+    .home .bg article h3{
+        font-size: 1.5rem;
         line-height: 50px;
     }
 

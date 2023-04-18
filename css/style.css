@@ -101,15 +101,28 @@ main{
     margin: auto;
     padding: 0 5%;
 }
-.home article {
+.home .bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    padding: 0 0;
+    max-width: 1320px;
+}
+.home .bg article {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     width: 50%;
-    height: 100%;
+    height: 100%;    
+    z-index: 100;
+
 }
-.home article h1{
+.home .bg article h1{
     font-size: 5rem;
     font-weight: 800;
     line-height: 70px;
@@ -124,6 +137,7 @@ main{
 }
 .home article p{
     margin: 10px 0;
+    width: 80%;
 }
 .home article a{
     background: #29A71A;
@@ -131,7 +145,8 @@ main{
     margin: 10px 0;
     padding: 10px 100px;
     border: #ffffff solid 3px;
-    border-radius: 10px;
+    border-radius: 10px;    
+
 }
 .home article a:hover{
     background:#239217;
@@ -143,9 +158,8 @@ main{
     width: 50%;
     height: 100vh;
 }
-.home aside img { 
-    width: 100%;
-    z-index: 1;
+.home aside img {
+    width: 110%;
 }
 
 /*  -----------  Section Soluções  ----------  */
@@ -155,7 +169,8 @@ main{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 800px;
+    max-width: 1320;
 }
 .solucoes h2{
     margin: 100px 0 50px 0;
@@ -212,8 +227,10 @@ main{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 750px;
+    margin: auto;
     padding: 100px 0 0 0;
+    max-width: 1320px;
 }
 .sobre h2{
     margin: 0 0 0 0;
@@ -275,8 +292,12 @@ main{
     align-items: center;
     flex-direction: row;
     width: 100%;
-    height: 600px;
+    height: 750px;
+    margin: auto;
     padding: 0px 0 20px 0;
+
+    max-width: 1320px;
+
 }
 .contatos .container{
     display: flex;
