@@ -22,11 +22,12 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+    height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 3%;
-    transition: .3s;
+    transition: all .2s ease;
 }
 header .brand{
     display: flex;
@@ -60,9 +61,12 @@ header .btn{
     display: none;
 }
 header.sticky{
+    height: 90px;
     background: #ffffff;
     box-shadow: 0px 10px 10px 0px #00000072;
     border-bottom: orangered solid 5px;
+    transition: all .3s ease;
+
 }
 header .button{
     background: #29A71A;
@@ -84,7 +88,7 @@ main{
 }
 
 /*  -----------  Section Home  ----------  */
-.home{
+.home{background:  url(../img/bg-home.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -111,9 +115,11 @@ main{
 }
 .home article h2{
     font-size: 20px;
+    color: orangered;
 }
 .home article h3{
     font-size: 30px;
+    color: orangered;
 }
 .home article p{
     margin: 10px 0;
@@ -129,7 +135,6 @@ main{
 .home article a:hover{
     background:#239217;
 }
-
 .home aside { 
     display: flex;
     justify-content: center;
@@ -221,7 +226,7 @@ main{
     height: 100%;
     padding: 0 5%;
 }
-.sobre article{background:orangered;
+.sobre article{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,6 +234,9 @@ main{
     height: 95%;
     padding: 0px;
     border-radius: 20px;    
+}
+.sobre article img{
+    width: 100%;
 }
 .sobre aside{
     display: flex;
@@ -254,20 +262,20 @@ main{
     background: orangered;
     color: #ffffff;
     margin: 20px 0px;
-    padding: 5px 50px;
+    padding: 15px 100px;
     border: #ffffff solid 3px;
     border-radius: 10px;
 }
 
 /*  -----------  Section Contatos  ----------  */
-.contatos{background: #e7e7e7;
+.contatos{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     width: 100%;
-    height: 100vh;
-    padding: 110px 0 0 0;
+    height: 600px;
+    padding: 0px 0 20px 0;
 }
 .contatos .container{
     display: flex;
@@ -276,7 +284,7 @@ main{
     flex-direction: row;
     width: 100%;
     height: 600px;
-    padding: 0px 0;
+    padding: 0 7%;
 }
 .contatos article{ 
     display: flex;
@@ -313,17 +321,18 @@ main{
 .contatos .whatsapp:hover{
     background: #239217;
 }
-.contatos aside{ 
+.contatos aside{
     display: flex;
     justify-content: center;
     align-items: center; 
     flex-direction: column;
-    width: 90%;    
+    width: 100%;    
     height: 90%;
 }
 .contatos aside iframe{
     width: 100%;
-    margin: 20px 0;
+    height: 100%;
+    margin: 20px;
 }
 
 
@@ -338,6 +347,9 @@ footer{
     padding: 20px 20px;
     background: #000000;
     color: #e7e7e7;
+    font-size: .8rem;
+    font-weight: 200;
+
 }
 footer a {
     color: orangered;
