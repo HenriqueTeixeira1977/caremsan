@@ -2,6 +2,9 @@
 
 @media screen and (min-width: 0px) and (max-width: 1023px){
 /*  ----------  Section Header  ---------- */ 
+    header .logo img{
+        width: 25%;
+    }
     header .btn {
         display: block;
     }
@@ -19,6 +22,9 @@
         padding: 80px 20px;
         transition:  0.5s;
         transition-property: right;
+    }
+    header.sticky{
+        height: 70px;
     }
     header .menu.active{
         right: 0;
@@ -96,6 +102,7 @@
         line-height: 50px;
     }
 
+
 /*  -----------  Section Soluções  ----------  */
     .solucoes {
         display: flex;
@@ -141,6 +148,8 @@
         margin: 20px 0px 0px 0px;
         padding: 5px 50px;
     }
+
+    
 /*  -----------  Section Sobre  ----------  */
     .sobre .container{
         display: flex;
@@ -158,13 +167,11 @@
     .sobre article img{
         width: 70%;
     }
-
     .sobre aside{
         width: 95%;
         align-items: center;
         text-align: center;
     }
-
     .sobre aside h2{
         font-size: 3rem;
         line-height: 35px;
