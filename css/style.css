@@ -2,6 +2,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+:root{
+    --laranja: #ff4500;
+    --preto: #000000;
+    --branco: #ffffff;
+
+    --titulo1: 5rem;
+    --titulo2: 3rem;
+    --titulo3: 2rem;
+    --titulo4: 1rem;
+    --titulo5: .8rem;
+
+    --text-shadow: 0 0 0 #000000;
+    --box-shadow: 0 0 0 #000000;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +31,7 @@ body{
     min-height: 100vh;
 }
 
+/*  -----------  Section Header  ----------  */
 header{
     z-index: 999;
     position: fixed;
@@ -29,7 +45,6 @@ header{
     padding: 20px 3%;
     transition: all .2s ease;
 }
-
 header nav a {
     margin: 10px;
     font-size: 1.1rem;
@@ -181,7 +196,7 @@ main{
     align-items: center;
     flex-direction: column;
     margin: 30px;
-    padding: 20px;
+    padding: 40px;
     width: 400px;
     height: 450px;
     text-align: center;
@@ -204,6 +219,7 @@ main{
 .solucoes .container .box p {
     font-size: 1rem;
     margin: 20px 0;
+
 }
 .solucoes .container .box a {
     background: orangered;
@@ -213,6 +229,13 @@ main{
     border: #ffffff solid 3px;
     border-radius: 10px;
 }
+.solucoes .container .box span{
+    color: var(--laranja);
+    font-size: var(--titulo4);
+    font-weight: 700;
+}
+
+
 
 /*  -----------  Section Sobre  ----------  */
 .sobre{
@@ -265,6 +288,14 @@ main{
 .sobre aside p{
     margin: 10px 0;
 }
+.sobre aside p span {
+    color: var(--laranja);
+    font-size: var(--titulo3);
+    font-weight: 700;
+}
+
+
+
 .sobre aside a{
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -281,6 +312,7 @@ main{
 
 /*  -----------  Section Contatos  ----------  */
 .contatos{
+    background: #e7e7e7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -300,38 +332,33 @@ main{
     max-width: 1320px; 
     padding: 0 20px;
 }
-.contatos article{ 
+.contatos article{
     display: flex;
     justify-content: center;
     align-items: flex-start; 
     flex-direction: column;
     width: 50%;    
-    height: 500px;
+    height: 100%;
 }
 .contatos h2{
     color: orangered;
     font-size: 3rem;
     line-height: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
-.contatos h3{
-    font-size: 1.5rem;
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-.contatos article p{
+.contatos article p{ 
     margin: 20px 0;
     padding: 0px 0;
 }
 .contatos article a{
     color: #000000;
-    margin: 0px 0px;
-    padding: 5px;
+    margin: 0px 0 0 0;
+    padding: 0px;
     border-radius: 10px;
 }
 .contatos .whatsapp {
-    width: 90%;
-    margin-top: 50px;
+    width: 100%;
+    margin-top: 0px;
     padding: 10px;
     background: #29A71A;
     font-size: 30px;
@@ -345,15 +372,15 @@ main{
 .contatos aside{
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: flex-end; 
     flex-direction: column;
-    width: 100%;    
-    height: 90%;
+    width: 60%;    
+    height: 100%;
+    padding: 0 0 0 20px;
 }
 .contatos aside iframe{
     width: 100%;
-    height: 100%;
-    margin: 20px;
+    height: 85%;
 }
 
 
@@ -364,13 +391,17 @@ footer{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 150px;
+    height: 200px;
     padding: 20px 20px;
     background: #000000;
     color: #e7e7e7;
     font-size: .8rem;
     font-weight: 200;
 
+}
+footer .redes a {
+    font-size: var(--titulo3);
+    margin: 10px;
 }
 footer a {
     color: orangered;
