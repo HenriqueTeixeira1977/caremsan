@@ -100,7 +100,7 @@ main{
     align-items: center;
     flex-direction: row;
     width: 100%;
-    height: ;
+    height: 100vh;
     margin: auto;
     padding: 0 5%;
 }
