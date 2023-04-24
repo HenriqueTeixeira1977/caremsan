@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 0px) and (max-width: 1023px){
+
 /*  ----------  Section Header  ---------- */ 
     header .logo img{
         width: 25%;
@@ -79,8 +80,8 @@
         margin: 70px 0 0 0;
     }
     main .home .bg aside img{
-        width: 70%;
-        margin: 0;
+        width: 300px;
+        margin: 5px;
     }
     main .home .bg article {
         display: flex;
