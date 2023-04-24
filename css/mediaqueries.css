@@ -50,7 +50,7 @@
     }    
 
 /*  ----------  Section Main Home  ---------- */ 
-    main .home {
+    .home {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -62,7 +62,7 @@
         margin: auto;
         padding: 0 20px;
     }
-    main .home .bg {
+    .home .bg {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -71,7 +71,7 @@
         height: 100vh;
         margin: auto;
     }   
-    main .home .bg aside {
+    .home .bg aside {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -79,11 +79,11 @@
         height: 50%;
         margin: 70px 0 0 0;
     }
-    main .home .bg aside img{
+    .home .bg aside img{
         width: 300px;
         margin: 5px;
     }
-    main .home .bg article {
+    .home .bg article {
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -97,6 +97,7 @@
     .home .bg article h2{
         font-size: 2.5rem;
         line-height: 50px;
+        margin: 0 0 50px 0;
     }
     .home .bg article h3{
         font-size: 1.5rem;
@@ -105,7 +106,7 @@
 
 
 /*  -----------  Section Soluções  ----------  */
-    .solucoes { background: red;
+    .solucoes {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -115,7 +116,7 @@
         margin: 0;
         padding: 100px 0;
     }
-    .solucoes h2{background: rebeccapurple;
+    .solucoes h2{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -125,7 +126,7 @@
         line-height: 0px;
         text-align: center;
     }
-    .solucoes .container {background: yellow;
+    .solucoes .container {
         flex-direction: column;
         width: 95%;
         height: 100vh;
