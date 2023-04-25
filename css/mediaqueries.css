@@ -36,13 +36,13 @@
         left: 93%;
         margin: 30px 0px 0px 0px;
     }
-    header nav a{
+    header nav a {
         display: block;
         font-size: 2rem;
         margin: 20px;
         padding: 0 15px;
     }
-    header nav a:hover{
+    header nav a:hover {
         color: orangered;
     }
     header .button {
@@ -79,7 +79,7 @@
         height: 50%;
         margin: 70px 0 0 0;
     }
-    .home .bg aside img{
+    .home .bg aside img {
         width: 300px;
         margin: 5px;
     }
@@ -90,16 +90,16 @@
         width: 100%;
         text-align: center;
     }
-    .home .bg article h1{
+    .home .bg article h1 {
         font-size: 3.5rem;
         line-height: 50px;
     }
-    .home .bg article h2{
+    .home .bg article h2 {
         font-size: 2.5rem;
         line-height: 50px;
         margin: 0 0 50px 0;
     }
-    .home .bg article h3{
+    .home .bg article h3 {
         font-size: 1.5rem;
         line-height: 50px;
     }
@@ -116,7 +116,7 @@
         margin: 0;
         padding: 100px 0;
     }
-    .solucoes h2{
+    .solucoes h2 {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -131,41 +131,49 @@
         width: 95%;
         height: 100vh;
     }
-    .solucoes .container .box{
+    .solucoes .container .box {
         width: 90%;
         height: 300px;
         margin-bottom: 10px;
         padding: 0 40px;
         transition: all .3s ease;
     }
-    .solucoes .container .box i{
+    .solucoes .container .box i {
         font-size: 50px;
         margin: 0px;
     }
-    .solucoes .container .box h3{
+    .solucoes .container .box h3 {
         font-size: 1.2em;
         margin: 0px;
     }
-    .solucoes .container .box p{
+    .solucoes .container .box p {
         font-size: .8em;
         margin: 0px;
     }
-    .solucoes .container .box a{
+    .solucoes .container .box a {
         margin: 20px 0px 0px 0px;
         padding: 5px 50px;
     }
 
     
 /*  -----------  Section Sobre  ----------  */
-    .sobre .container{
+    .sobre {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         width: 100%;
-        height: 900px;
+        height: 100vh;
+    }
+
+    .sobre .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
         margin: 0;
-        text-align: ;
     }
     .sobre article {
         width: 95%;
@@ -196,11 +204,11 @@
 
 
 /*  -----------  Section Contatos  ----------  */
-    .contatos{
+    .contatos {
         width: 100%;
         height: 1000px;
     }
-    .contatos .container{ 
+    .contatos .container { 
         display: flex;
         justify-content: center;
         align-items: center;
@@ -208,7 +216,7 @@
         width: 95%;
         height: 100vh;
     }
-    .contatos .container article{
+    .contatos .container article {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -218,15 +226,15 @@
         padding: 10px 0;
         text-align: center;
     }
-    .contatos article h2{
+    .contatos article h2 {
         width: 100%;
         font-size: 3rem;
         text-align: center;
         padding: 0px 0;
     }
-    .contatos article p{
+    .contatos article p {
         margin: 10px 0;
-        padding: 0px 0;
+        padding: 0px 20px;
         text-align: center;
     }
     .contatos .whatsapp {
@@ -235,7 +243,7 @@
         margin: 20px 0 10px 0;
         font-size: 20px;
     }
-    .contatos aside{
+    .contatos aside {
         display: flex;
         justify-content: center;
         align-items: flex-end; 
@@ -245,7 +253,7 @@
         margin: 0;
         padding: 0 0 0 0;
     }
-    .contatos aside iframe{
+    .contatos aside iframe {
         display: flex;
         justify-content: center;
         align-items: center;
