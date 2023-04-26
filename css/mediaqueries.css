@@ -4,7 +4,7 @@
 
 /*  ----------  Section Header  ---------- */ 
     header .logo img{
-        width: 15%;
+        width:75px;
     }
     header .btn {
         display: block;
@@ -25,7 +25,7 @@
         transition-property: right;
     }
     header.sticky{
-        height: 70px;
+        height: 50px;
     }
     header .menu.active{
         right: 0;
