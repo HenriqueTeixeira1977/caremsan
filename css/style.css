@@ -294,9 +294,6 @@ main{
     font-size: var(--titulo3);
     font-weight: 700;
 }
-
-
-
 .sobre aside a{
     font-size: 1.2rem;
     text-transform: uppercase;
