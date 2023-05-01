@@ -48,7 +48,6 @@
     header .button {
         display: none;
     }    
-
 /*  ----------  Section Main Home  ---------- */ 
     .home {
         display: flex;
@@ -103,8 +102,6 @@
         font-size: 1.5rem;
         line-height: 50px;
     }
-
-
 /*  -----------  Section Soluções  ----------  */
     .solucoes {
         display: flex;
@@ -153,9 +150,7 @@
     .solucoes .container .box a {
         margin: 20px 0px 0px 0px;
         padding: 5px 50px;
-    }
-
-    
+    }    
 /*  -----------  Section Sobre  ----------  */
     .sobre { 
         display: flex;
@@ -210,8 +205,6 @@
     .sobre aside a{
         padding: 5px 30px;
     }
-
-
 /*  -----------  Section Contatos  ----------  */
     .contatos {
         width: 100%;
@@ -270,9 +263,7 @@
         height: 90%;  
         margin: 0;
         padding: 0;      
-    } 
-    
-    
+    }     
 /*  -----------  Section Footer  ----------  */
     footer {
         height: 200px;

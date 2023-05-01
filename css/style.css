@@ -7,17 +7,14 @@
     --preto: #000000;
     --branco: #ffffff;
     --verde: #29A71A;
-
     --titulo1: 5rem;
     --titulo2: 3rem;
     --titulo3: 2rem;
     --titulo4: 1rem;
     --titulo5: .8rem;
-
     --text-shadow: 0 0 0 #000000;
     --box-shadow: 0 0 0 #000000;
 }
-
 *{
     margin: 0;
     padding: 0;
@@ -148,7 +145,6 @@ main{
     padding: 10px 100px;
     border: #ffffff solid 3px;
     border-radius: 10px;    
-
 }
 .home article a:hover{
     background:#239217;
@@ -220,7 +216,6 @@ main{
 .solucoes .container .box p {
     font-size: 1rem;
     margin: 20px 0;
-
 }
 .solucoes .container .box a {
     background: orangered;
@@ -395,7 +390,6 @@ footer{
     color: #e7e7e7;
     font-size: .8rem;
     font-weight: 200;
-
 }
 footer .redes a {
     font-size: var(--titulo3);
